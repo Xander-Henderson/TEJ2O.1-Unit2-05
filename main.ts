@@ -1,8 +1,8 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: XXX
- * Created on: Sep 2020
- * This program ...
+ * Created by: Alexander
+ * Created on: Sep 2025
+ * This program shows a happy face.
 */
 
 basic.clearScreen()
