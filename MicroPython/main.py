@@ -1,7 +1,7 @@
 """
 Created by: Alexander
 Created on: Sep 2025
-This module shows the temperature of the microbit
+This module shows the temperature of the microbit in kelvin
 """
 
 from microbit import *
@@ -15,4 +15,4 @@ display.show(Image.HAPPY)
 while True:
     if button_a.is_pressed():
         temperature_of_microbit = input.temperature() + 273
-        display.show ('The temperature is: ' + str(temperature_of_microbit) + ' K')
+        display.show("The temperature is: " + str(temperature_of_microbit) + " K")
