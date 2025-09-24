@@ -14,5 +14,6 @@ display.show(Image.HAPPY)
 
 while True:
     if button_a.is_pressed():
-        temperature_of_microbit_in_kelvin = input.temperature() + 273
+        # https://pc-microbit-micropython.readthedocs.io/en/latest/sensors/thermometer.html
+        temperature_of_microbit_in_kelvin = temperature() + 273
         display.show("The temperature is: " + str(temperature_of_microbit_in_kelvin) + " K")
